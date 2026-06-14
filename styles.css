@@ -366,6 +366,12 @@ img { max-width: 100%; display: block; }
   transition: transform var(--transition), border-color var(--transition), box-shadow var(--transition);
   display: flex;
   flex-direction: column;
+  opacity: 1;
+  transform: none;
+}
+.project-card.fade-in:not(.visible) {
+  opacity: 0;
+  transform: translateY(20px);
 }
 .project-card:hover {
   transform: translateY(-4px);
