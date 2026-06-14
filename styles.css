@@ -425,6 +425,10 @@ img { max-width: 100%; display: block; }
   font-size: 0.875rem;
   font-weight: 600;
 }
+.projects-footer {
+  text-align: center;
+  margin-top: 2.5rem;
+}
 
 /* ── Skills ── */
 .skills-grid {
